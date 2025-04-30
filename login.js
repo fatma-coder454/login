@@ -42,7 +42,7 @@ loginForm.addEventListener('submit', function (e) {
             alert('Login successful!');
             loginForm.reset();
             document.querySelectorAll('input').forEach(input => input.classList.remove('valid'));
-            window.location.href = "index.html";  
+            window.location.href = "home.html";  
         } else {
             alert('Invalid email or password.');
         }
